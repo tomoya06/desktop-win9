@@ -3,7 +3,7 @@ import { installedAppToMap } from "./apps/installed";
 import Desktop from "./components/Desktop";
 import { observer } from "mobx-react-lite";
 import { GlobalContext } from "./context";
-import { inIframe, MessageName, useMobile } from "../../src/utils/window";
+import { inIframe, MessageName, useMobile } from "./utils/window";
 import { SystemPreload } from "./apps/preload";
 import LockScreen from "./components/LockScreen";
 import classNames from "classnames";

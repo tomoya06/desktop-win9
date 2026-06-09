@@ -3,7 +3,8 @@ import DesktopTile, {
   TileBasicProps,
 } from "../../DesktopTile";
 import { useEffect, useState } from "react";
-import { randInt } from "three/src/math/MathUtils";
+const randInt = (min: number, max: number) =>
+  Math.floor(Math.random() * (max - min + 1)) + min;
 import randomItem from "random-item";
 import { WeatherTextName } from "./util";
 import delay from "delay";

@@ -12,7 +12,7 @@ import DesktopTile, {
 } from "../../DesktopTile";
 import { TileLiveContent } from "../../DesktopTile/interface";
 import "./index.scss";
-import { preloadManager } from "../../../../../src/utils/image";
+import { preloadManager } from "../../../utils/image";
 
 const AppStoreShowcase: React.FC<{
   cover: string;

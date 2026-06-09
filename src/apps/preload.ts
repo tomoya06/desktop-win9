@@ -1,4 +1,4 @@
-import { preloadManager } from "../../../src/utils/image";
+import { preloadManager } from "../utils/image";
 import {
   AdminAvatar,
   AppContainerIcons,
